@@ -111,6 +111,12 @@ video{
     left: 50%;
     top: 50%;
   }
+    #reset-game-btn-v{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+  }
 }
 @media (max-width:430px){
   .option-container {
