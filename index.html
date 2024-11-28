@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5ood hahahahah</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+  <main>  
+    <div class="score-container">
+      <strong>Player Score: <span class="score" id="player-score">0</span></strong>
+      <strong>computer Score: <span class="score" id="computer-score">0</span></strong>
+    </div>
+    <div class="option-container">
+      <button class="option" id="rock">✊</button>
+      <button class="option" id="paper">✋</button>
+      <button class="option" id="scissors">✌️</button>
+    </div>
+    <div class="result-container">
+      <p id="results-msg"></p>
+      <p id="winner-msg"></p>
+      <div class="video-v">
+        <video id="loser-msg"controls autoplay>
+          <source src="pitchers/5ood.mp4" type="video/mp4">
+        </video>
+        <div class="controls">
+          <button id="reset-game-btn-v">Play again?</button>
+        </div>
+      </div>
+      <button class="btn" id="reset-game-btn">Play again?</button>
+    </div>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
